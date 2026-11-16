@@ -1,0 +1,767 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+ALT	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const ALT = 0b0000_0100;$/;"	c
+ANSI_COLOR_DISABLED	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^static ANSI_COLOR_DISABLED: AtomicBool = AtomicBool::new(false);$/;"	c
+ATTRIBUTES	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^        const ATTRIBUTES: Attributes = Attributes::none()$/;"	c
+Adapter	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    struct Adapter<T> {$/;"	s
+App	/home/amaury/Desktop/rust/rengine/src/main.rs	/^pub struct App {$/;"	s
+Attribute	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/attribute.rs	/^        pub enum Attribute {$/;"	g
+Attribute	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/attribute.rs	/^macro_rules! Attribute {$/;"	d
+Attributes	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^pub struct Attributes(u32);$/;"	s
+BG_BLUE	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^const BG_BLUE: u16 = wincon::BACKGROUND_BLUE;$/;"	c
+BG_GREEN	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^const BG_GREEN: u16 = wincon::BACKGROUND_GREEN;$/;"	c
+BG_INTENSITY	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^const BG_INTENSITY: u16 = wincon::BACKGROUND_INTENSITY;$/;"	c
+BG_RED	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^const BG_RED: u16 = wincon::BACKGROUND_RED;$/;"	c
+BacktraceOmited	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^struct BacktraceOmited(bool);$/;"	s
+BeginSynchronizedUpdate	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct BeginSynchronizedUpdate;$/;"	s
+Body	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/github.rs	/^struct Body {$/;"	s
+Bytes	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^        struct Bytes;$/;"	s
+CAPS_LOCK	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const CAPS_LOCK = 0b0000_0010;$/;"	c
+CONTROL	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const CONTROL = 0b0000_0010;$/;"	c
+CURSOR_EVENT	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^        const CURSOR_EVENT: InternalEvent = InternalEvent::CursorPosition(10, 20);$/;"	c
+CharCase	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/parse.rs	/^enum CharCase {$/;"	g
+Clear	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct Clear(pub ClearType);$/;"	s
+ClearType	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub enum ClearType {$/;"	g
+ClipboardSelection	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^pub struct ClipboardSelection($/;"	s
+ClipboardType	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^pub enum ClipboardType {$/;"	g
+Collapsed	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/github.rs	/^struct Collapsed<T>(T);$/;"	s
+Color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^pub enum Color {$/;"	g
+ColorVisitor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^        struct ColorVisitor;$/;"	s
+Colored	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^pub enum Colored {$/;"	g
+Colors	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colors.rs	/^pub struct Colors {$/;"	s
+Command	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^pub trait Command {$/;"	t
+ConsoleSection	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/github.rs	/^struct ConsoleSection<T>(T);$/;"	s
+ContentStyle	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/content_style.rs	/^pub struct ContentStyle {$/;"	s
+CopyToClipboard	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^pub struct CopyToClipboard<T> {$/;"	s
+DEFAULT	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    const DEFAULT: u16 = 8;$/;"	c
+DISAMBIGUATE_ESCAPE_CODES	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const DISAMBIGUATE_ESCAPE_CODES = 0b0000_0001;$/;"	c
+DefaultPanicMessage	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^struct DefaultPanicMessage(Theme);$/;"	s
+DefaultTerminal	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/init.rs	/^pub type DefaultTerminal = Terminal<CrosstermBackend<Stdout>>;$/;"	T
+DisableBlinking	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct DisableBlinking;$/;"	s
+DisableBracketedPaste	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub struct DisableBracketedPaste;$/;"	s
+DisableFocusChange	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub struct DisableFocusChange;$/;"	s
+DisableLineWrap	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct DisableLineWrap;$/;"	s
+DisableMouseCapture	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub struct DisableMouseCapture;$/;"	s
+Display	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/github.rs	/^type Display<'a> = Box<dyn std::fmt::Display + Send + Sync + 'a>;$/;"	T
+DisplayFromDebug	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/github.rs	/^struct DisplayFromDebug<T>(T);$/;"	s
+EMPTY_RESULT	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^            const EMPTY_RESULT: [&str; 0] = [];$/;"	c
+ENABLE_MOUSE_MODE	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows.rs	/^const ENABLE_MOUSE_MODE: u32 = 0x0010 | 0x0080 | 0x0008;$/;"	c
+ESC_PRESSED	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    const ESC_PRESSED: KeyEvent =$/;"	c
+ESC_RELEASED	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    const ESC_RELEASED: KeyEvent =$/;"	c
+ESC_REPEAT	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    const ESC_REPEAT: KeyEvent =$/;"	c
+EVENT	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^        const EVENT: InternalEvent = InternalEvent::Event(Event::Resize(10, 10));$/;"	c
+EnableBlinking	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct EnableBlinking;$/;"	s
+EnableBracketedPaste	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub struct EnableBracketedPaste;$/;"	s
+EnableFocusChange	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub struct EnableFocusChange;$/;"	s
+EnableLineWrap	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct EnableLineWrap;$/;"	s
+EnableMouseCapture	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub struct EnableMouseCapture;$/;"	s
+EndSynchronizedUpdate	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct EndSynchronizedUpdate;$/;"	s
+EnterAlternateScreen	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct EnterAlternateScreen;$/;"	s
+Err	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    type Err = ();$/;"	T
+Err	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    type Err = ();$/;"	T
+Error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    type Error = ();$/;"	T
+ErrorKind	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/lib.rs	/^pub enum ErrorKind<'a> {$/;"	g
+Event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub enum Event {$/;"	g
+EventStream	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/stream.rs	/^pub struct EventStream {$/;"	s
+ExecutableCommand	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^pub trait ExecutableCommand {$/;"	t
+EyreHook	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^pub struct EyreHook {$/;"	s
+FG_BLUE	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^const FG_BLUE: u16 = wincon::FOREGROUND_BLUE;$/;"	c
+FG_GREEN	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^const FG_GREEN: u16 = wincon::FOREGROUND_GREEN;$/;"	c
+FG_INTENSITY	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^const FG_INTENSITY: u16 = wincon::FOREGROUND_INTENSITY;$/;"	c
+FG_RED	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^const FG_RED: u16 = wincon::FOREGROUND_RED;$/;"	c
+FILE_PREFIXES	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^        const FILE_PREFIXES: &[&str] = &[$/;"	c
+FakeCommand	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        pub struct FakeCommand;$/;"	s
+FakeCommand	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        struct FakeCommand<'a> {$/;"	s
+FakeSource	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    struct FakeSource {$/;"	s
+FakeWrite	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^    struct FakeWrite {$/;"	s
+Farewell	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    struct Farewell;$/;"	s
+FileDesc	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/file_descriptor.rs	/^pub enum FileDesc<'a> {$/;"	g
+FileDesc	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/file_descriptor.rs	/^pub struct FileDesc<'a> {$/;"	s
+FilterCallback	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^pub type FilterCallback = dyn Fn(&mut Vec<&Frame>) + Send + Sync + 'static;$/;"	T
+Frame	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^pub struct Frame {$/;"	s
+FrameExt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets.rs	/^pub trait FrameExt {$/;"	t
+Greeting	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    struct Greeting;$/;"	s
+HYPER	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const HYPER = 0b0001_0000;$/;"	c
+Handler	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/lib.rs	/^pub struct Handler {$/;"	s
+Hide	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct Hide;$/;"	s
+HookBuilder	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^pub struct HookBuilder {$/;"	s
+HookFunc	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^type HookFunc = Box<$/;"	T
+INITIALIZER	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/ansi_support.rs	/^static INITIALIZER: Once = Once::new();$/;"	c
+INITIALIZER	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^static INITIALIZER: Once = Once::new();$/;"	c
+INTERNAL_EVENT_READER	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^static INTERNAL_EVENT_READER: Mutex<Option<InternalEventReader>> = parking_lot::const_mutex(None);$/;"	c
+IndentedSection	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^pub struct IndentedSection<H, B> {$/;"	s
+IsTty	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/tty.rs	/^pub trait IsTty {$/;"	t
+IssueFilterCallback	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^pub type IssueFilterCallback = dyn Fn(crate::ErrorKind<'_>) -> bool + Send + Sync + 'static;$/;"	T
+Item	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^    type Item = InternalEvent;$/;"	T
+Item	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^    type Item = InternalEvent;$/;"	T
+Item	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/stream.rs	/^    type Item = io::Result<Event>;$/;"	T
+KEYPAD	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const KEYPAD = 0b0000_0001;$/;"	c
+KeyCode	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub enum KeyCode {$/;"	g
+KeyEvent	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub struct KeyEvent {$/;"	s
+KeyEventKind	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub enum KeyEventKind {$/;"	g
+KeyEventState	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub struct KeyEventState: u8 {$/;"	s
+KeyModifiers	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub struct KeyModifiers: u8 {$/;"	s
+KeyboardEnhancementFlags	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub struct KeyboardEnhancementFlags: u8 {$/;"	s
+LeaveAlternateScreen	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct LeaveAlternateScreen;$/;"	s
+META	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const META = 0b0010_0000;$/;"	c
+MOUSE_CLICK	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    const MOUSE_CLICK: MouseEvent = MouseEvent {$/;"	c
+MediaKeyCode	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub enum MediaKeyCode {$/;"	g
+MetadataSection	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/github.rs	/^struct MetadataSection<T> {$/;"	s
+ModifierKeyCode	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub enum ModifierKeyCode {$/;"	g
+MouseButton	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub enum MouseButton {$/;"	g
+MouseButtonsPressed	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/parse.rs	/^pub struct MouseButtonsPressed {$/;"	s
+MouseEvent	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub struct MouseEvent {$/;"	s
+MouseEventKind	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub enum MouseEventKind {$/;"	g
+MoveDown	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct MoveDown(pub u16);$/;"	s
+MoveLeft	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct MoveLeft(pub u16);$/;"	s
+MoveRight	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct MoveRight(pub u16);$/;"	s
+MoveTo	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct MoveTo(pub u16, pub u16);$/;"	s
+MoveToColumn	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct MoveToColumn(pub u16);$/;"	s
+MoveToNextLine	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct MoveToNextLine(pub u16);$/;"	s
+MoveToPreviousLine	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct MoveToPreviousLine(pub u16);$/;"	s
+MoveToRow	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct MoveToRow(pub u16);$/;"	s
+MoveUp	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct MoveUp(pub u16);$/;"	s
+NONE	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const NONE = 0b0000_0000;$/;"	c
+NOT_RAW_MODE_MASK	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^const NOT_RAW_MODE_MASK: DWORD = ENABLE_LINE_INPUT | ENABLE_ECHO_INPUT | ENABLE_PROCESSED_INPUT;$/;"	c
+NUM_LOCK	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const NUM_LOCK = 0b0000_0100;$/;"	c
+ORIGINAL_CONSOLE_COLOR	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^static ORIGINAL_CONSOLE_COLOR: AtomicU32 = AtomicU32::new(u32::MAX);$/;"	c
+ORIGINAL_CONSOLE_MODE	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows.rs	/^static ORIGINAL_CONSOLE_MODE: AtomicU64 = AtomicU64::new(u64::MAX);$/;"	c
+Output	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    type Output = Self;$/;"	T
+Output	/home/amaury/Desktop/rust/rengine/src/vectors.rs	/^    type Output = Self;$/;"	T
+PanicHook	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^pub struct PanicHook {$/;"	s
+PanicMessage	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^pub trait PanicMessage: Send + Sync + 'static {$/;"	t
+PanicReport	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^pub struct PanicReport<'a> {$/;"	s
+Parser	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^struct Parser {$/;"	s
+Parser	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^struct Parser {$/;"	s
+PersonalGreeting	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    struct PersonalGreeting;$/;"	s
+PollTimeout	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^pub struct PollTimeout {$/;"	s
+PopKeyboardEnhancementFlags	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub struct PopKeyboardEnhancementFlags;$/;"	s
+Print	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub struct Print<T: Display>(pub T);$/;"	s
+PrintStyledContent	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub struct PrintStyledContent<D: Display>(pub StyledContent<D>);$/;"	s
+PushKeyboardEnhancementFlags	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub struct PushKeyboardEnhancementFlags(pub KeyboardEnhancementFlags);$/;"	s
+QUERY	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^    const QUERY: &[u8] = b"\\x1B[?u\\x1B[c";$/;"	c
+QueueableCommand	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^pub trait QueueableCommand {$/;"	t
+REMOVE_BG_MASK	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^                        const REMOVE_BG_MASK: u16 = BG_INTENSITY | BG_RED | BG_GREEN | BG_BLUE;$/;"	c
+REMOVE_FG_MASK	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^                        const REMOVE_FG_MASK: u16 = FG_INTENSITY | FG_RED | FG_GREEN | FG_BLUE;$/;"	c
+REPORT_ALL_KEYS_AS_ESCAPE_CODES	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const REPORT_ALL_KEYS_AS_ESCAPE_CODES = 0b0000_1000;$/;"	c
+REPORT_ALTERNATE_KEYS	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const REPORT_ALTERNATE_KEYS = 0b0000_0100;$/;"	c
+REPORT_EVENT_TYPES	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const REPORT_EVENT_TYPES = 0b0000_0010;$/;"	c
+ResetColor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub struct ResetColor;$/;"	s
+RestorePosition	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct RestorePosition;$/;"	s
+Return	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    type Return = Report;$/;"	T
+Return	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    type Return = Result<T, Report>;$/;"	T
+Return	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    type Return;$/;"	T
+SAVED_CURSOR_POS	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^static SAVED_CURSOR_POS: AtomicU64 = AtomicU64::new(u64::MAX);$/;"	c
+SGR	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/attribute.rs	/^        pub static SGR: &'static[i16] = &[$/;"	c
+SHIFT	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const SHIFT = 0b0000_0001;$/;"	c
+SIGNAL_TOKEN	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^const SIGNAL_TOKEN: Token = Token(1);$/;"	c
+SKIPPED_EVENT	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^        const SKIPPED_EVENT: InternalEvent = InternalEvent::Event(Event::Resize(10, 10));$/;"	c
+SUPER	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^        const SUPER = 0b0000_1000;$/;"	c
+SUPPORTS_ANSI_ESCAPE_CODES	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/ansi_support.rs	/^static SUPPORTS_ANSI_ESCAPE_CODES: AtomicBool = AtomicBool::new(false);$/;"	c
+SYM_PREFIXES	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^        const SYM_PREFIXES: &[&str] = &[$/;"	c
+SavePosition	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct SavePosition;$/;"	s
+ScreenBufferCursor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^struct ScreenBufferCursor {$/;"	s
+ScrollDown	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct ScrollDown(pub u16);$/;"	s
+ScrollUp	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct ScrollUp(pub u16);$/;"	s
+Sealed	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/private.rs	/^pub trait Sealed {}$/;"	t
+Section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^pub trait Section: crate::private::Sealed {$/;"	t
+SectionExt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^pub trait SectionExt: Sized {$/;"	t
+SetAttribute	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub struct SetAttribute(pub Attribute);$/;"	s
+SetAttributes	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub struct SetAttributes(pub Attributes);$/;"	s
+SetBackgroundColor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub struct SetBackgroundColor(pub Color);$/;"	s
+SetColors	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub struct SetColors(pub Colors);$/;"	s
+SetCursorStyle	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub enum SetCursorStyle {$/;"	g
+SetForegroundColor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub struct SetForegroundColor(pub Color);$/;"	s
+SetSize	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct SetSize(pub u16, pub u16);$/;"	s
+SetStyle	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub struct SetStyle(pub ContentStyle);$/;"	s
+SetTitle	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct SetTitle<T>(pub T);$/;"	s
+SetUnderlineColor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub struct SetUnderlineColor(pub Color);$/;"	s
+Show	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^pub struct Show;$/;"	s
+SourceSection	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^struct SourceSection<'a>(&'a Frame, Theme);$/;"	s
+SourceSnippets	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^struct SourceSnippets(Verbosity);$/;"	s
+SpanTraceOmited	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^struct SpanTraceOmited<'a>(Option<&'a SpanTrace>);$/;"	s
+State	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^            type State = [u8];$/;"	T
+State	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^        type State = String;$/;"	T
+State	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    type State = State;$/;"	T
+State	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    type State: ?Sized;$/;"	T
+StatefulWidgetRef	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^pub trait StatefulWidgetRef {$/;"	t
+Styled	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^            type Styled = StyledContent<Self>;$/;"	T
+Styled	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^    type Styled = Self;$/;"	T
+Styled	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^    type Styled = StyledContent<D>;$/;"	T
+Styled	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^    type Styled: AsRef<ContentStyle> + AsMut<ContentStyle>;$/;"	T
+StyledContent	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/styled_content.rs	/^pub struct StyledContent<D: Display> {$/;"	s
+StyledFrame	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^struct StyledFrame<'a>(&'a Frame, Theme);$/;"	s
+Stylize	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^pub trait Stylize: Sized {$/;"	t
+SynchronizedUpdate	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^pub trait SynchronizedUpdate {$/;"	t
+TERMINAL_MODE_PRIOR_RAW_MODE	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^static TERMINAL_MODE_PRIOR_RAW_MODE: Mutex<Option<Termios>> = parking_lot::const_mutex(None);$/;"	c
+TIMEOUT_MILLIS	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^        const TIMEOUT_MILLIS: u64 = 100;$/;"	c
+TTY_BUFFER_SIZE	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^const TTY_BUFFER_SIZE: usize = 1_024;$/;"	c
+TTY_BUFFER_SIZE	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^const TTY_BUFFER_SIZE: usize = 1_024;$/;"	c
+TTY_TOKEN	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^const TTY_TOKEN: Token = Token(0);$/;"	c
+Task	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/stream.rs	/^struct Task {$/;"	s
+Theme	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^pub struct Theme {$/;"	s
+Utf16Encoder	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^    struct Utf16Encoder(Vec<u16>);$/;"	s
+Value	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^            type Value = Color;$/;"	T
+Vector3D	/home/amaury/Desktop/rust/rengine/src/vectors.rs	/^pub struct Vector3D {$/;"	s
+WAKE_TOKEN	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^const WAKE_TOKEN: Token = Token(2);$/;"	c
+WakePipe	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^struct WakePipe {$/;"	s
+WidgetRef	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^pub trait WidgetRef {$/;"	t
+WindowSize	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub struct WindowSize {$/;"	s
+WindowsEventStream	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        type WindowsEventStream = Vec<&'static str>;$/;"	T
+WindowsKeyEvent	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/parse.rs	/^enum WindowsKeyEvent {$/;"	g
+add	/home/amaury/Desktop/rust/rengine/src/vectors.rs	/^    fn add(self, vec: Self) -> Self {$/;"	f
+add_default_filters	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn add_default_filters(self) -> Self {$/;"	f
+add_frame_filter	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn add_frame_filter(mut self, filter: Box<FilterCallback>) -> Self {$/;"	f
+add_issue_metadata	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn add_issue_metadata<K, V>(mut self, key: K, value: V) -> Self$/;"	f
+advance	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^    fn advance(&mut self, buffer: &[u8], more: bool) {$/;"	f
+advance	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^    fn advance(&mut self, buffer: &[u8], more: bool) {$/;"	f
+ansi_color_disabled	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    pub fn ansi_color_disabled() -> bool {$/;"	f
+ansi_color_disabled_memoized	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    pub fn ansi_color_disabled_memoized() -> bool {$/;"	f
+apply	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/content_style.rs	/^    pub fn apply<D: Display>(self, val: D) -> StyledContent<D> {$/;"	f
+as_char	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn as_char(&self) -> Option<char> {$/;"	f
+as_fd	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/file_descriptor.rs	/^    fn as_fd(&self) -> BorrowedFd<'_> {$/;"	f
+as_key_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn as_key_event(&self) -> Option<KeyEvent> {$/;"	f
+as_key_press_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn as_key_press_event(&self) -> Option<KeyEvent> {$/;"	f
+as_key_release_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn as_key_release_event(&self) -> Option<KeyEvent> {$/;"	f
+as_key_repeat_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn as_key_repeat_event(&self) -> Option<KeyEvent> {$/;"	f
+as_mouse_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn as_mouse_event(&self) -> Option<MouseEvent> {$/;"	f
+as_mut	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/content_style.rs	/^    fn as_mut(&mut self) -> &mut Self {$/;"	f
+as_mut	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/styled_content.rs	/^    fn as_mut(&mut self) -> &mut ContentStyle {$/;"	f
+as_paste_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn as_paste_event(&self) -> Option<&str> {$/;"	f
+as_raw_fd	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/file_descriptor.rs	/^    fn as_raw_fd(&self) -> RawFd {$/;"	f
+as_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/content_style.rs	/^    fn as_ref(&self) -> &Self {$/;"	f
+as_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/styled_content.rs	/^    fn as_ref(&self) -> &ContentStyle {$/;"	f
+as_resize_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn as_resize_event(&self) -> Option<(u16, u16)> {$/;"	f
+attribute	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^    fn attribute(self, attr: Attribute) -> Self::Styled {$/;"	f
+available_color_count	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub fn available_color_count() -> u16 {$/;"	f
+backend	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/lib.rs	/^pub mod backend {$/;"	m
+backtrace	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/handler.rs	/^    pub fn backtrace(&self) -> Option<&Backtrace> {$/;"	f
+bitand	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    fn bitand(self, rhs: Attribute) -> Self {$/;"	f
+bitand	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    fn bitand(self, rhs: Self) -> Self {$/;"	f
+bitor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    fn bitor(self, rhs: Attribute) -> Self {$/;"	f
+bitor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    fn bitor(self, rhs: Self) -> Self {$/;"	f
+bitxor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    fn bitxor(self, rhs: Attribute) -> Self {$/;"	f
+bitxor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    fn bitxor(self, rhs: Self) -> Self {$/;"	f
+blank	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn blank() -> Self {$/;"	f
+box_render_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    fn box_render_ref(mut buf: Buffer, mut state: String) {$/;"	f
+buf	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    fn buf() -> Buffer {$/;"	f
+buf	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn buf() -> Buffer {$/;"	f
+butterfly	/home/amaury/Desktop/rust/rengine/src/curves.rs	/^pub fn butterfly(t: f64) -> Vector3D {$/;"	f
+calculated_docs	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^macro_rules! calculated_docs {$/;"	d
+capture_span_trace_by_default	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn capture_span_trace_by_default(mut self, cond: bool) -> Self {$/;"	f
+char_code_to_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^fn char_code_to_event(code: KeyCode) -> KeyEvent {$/;"	f
+check_format_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn check_format_color(colored: Colored, expected: &str) {$/;"	f
+clear_after_cursor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^fn clear_after_cursor($/;"	f
+clear_before_cursor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^fn clear_before_cursor($/;"	f
+clear_current_line	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^fn clear_current_line($/;"	f
+clear_entire_screen	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^fn clear_entire_screen(buffer_size: Size, current_attribute: u16) -> std::io::Result<()> {$/;"	f
+clear_until_line	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^fn clear_until_line($/;"	f
+clear_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^fn clear_winapi($/;"	f
+colorterm_overrides_term	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    fn colorterm_overrides_term() {$/;"	f
+content	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/styled_content.rs	/^    pub fn content(&self) -> &D {$/;"	f
+could_not_parse_event_error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^fn could_not_parse_event_error() -> io::Error {$/;"	f
+csi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^macro_rules! csi {$/;"	d
+curves	/home/amaury/Desktop/rust/rengine/src/curves.rs	/^pub mod curves {$/;"	m
+dark	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn dark() -> Self {$/;"	f
+debug	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/handler.rs	/^    fn debug($/;"	f
+default	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    fn default() -> Self {$/;"	f
+default	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn default() -> Self {$/;"	f
+default	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^    fn default() -> Self {$/;"	f
+default	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^    fn default() -> Self {$/;"	f
+default	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/stream.rs	/^    fn default() -> Self {$/;"	f
+default_color_count	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    fn default_color_count() {$/;"	f
+default_frame_filter	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^fn default_frame_filter(frames: &mut Vec<&Frame>) {$/;"	f
+deserialize	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn deserialize<D>(deserializer: D) -> Result<Color, D::Error>$/;"	f
+disable_raw_mode	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub fn disable_raw_mode() -> io::Result<()> {$/;"	f
+display	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    fn display(&self, pi: &std::panic::PanicInfo<'_>, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+display	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn display(&self, pi: &std::panic::PanicInfo<'_>, f: &mut fmt::Formatter<'_>) -> fmt::Result;$/;"	f
+display_env_section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn display_env_section(mut self, cond: bool) -> Self {$/;"	f
+display_location_section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn display_location_section(mut self, cond: bool) -> Self {$/;"	f
+draw	/home/amaury/Desktop/rust/rengine/src/main.rs	/^    fn draw(&self, frame: &mut Frame) {$/;"	f
+drop	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/stream.rs	/^    fn drop(&mut self) {$/;"	f
+drop	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/file_descriptor.rs	/^    fn drop(&mut self) {$/;"	f
+elapsed	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^    pub fn elapsed(&self) -> bool {$/;"	f
+enable_raw_mode	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub fn enable_raw_mode() -> io::Result<()> {$/;"	f
+enable_vt_processing	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/ansi_support.rs	/^fn enable_vt_processing() -> std::io::Result<()> {$/;"	f
+eq	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn eq(&self, other: &KeyEvent) -> bool {$/;"	f
+error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn error<E2>(mut self, error: E2) -> Self::Return$/;"	f
+error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn error<E2>(self, error: E2) -> Self::Return$/;"	f
+error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn error<E>(self, error: E) -> Self::Return$/;"	f
+eval	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/filter.rs	/^        fn eval(&self, _: &InternalEvent) -> bool {$/;"	f
+eval	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/filter.rs	/^    fn eval(&self, _: &InternalEvent) -> bool {$/;"	f
+eval	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/filter.rs	/^    fn eval(&self, event: &InternalEvent) -> bool {$/;"	f
+eval	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/filter.rs	/^    fn eval(&self, event: &InternalEvent) -> bool;$/;"	f
+eval	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^        fn eval(&self, _: &InternalEvent) -> bool {$/;"	f
+event_as	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn event_as() {$/;"	f
+event_is	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn event_is() {$/;"	f
+execute	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn execute(&mut self, command: impl Command) -> io::Result<&mut Self> {$/;"	f
+execute	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn execute(&mut self, command: impl Command) -> io::Result<&mut Self>;$/;"	f
+execute	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^macro_rules! execute {$/;"	d
+execute_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn execute_winapi(&self) -> std::io::Result<()> {$/;"	f
+execute_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn execute_winapi(&self) -> io::Result<()> {$/;"	f
+execute_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn execute_winapi(&self) -> io::Result<()>;$/;"	f
+execute_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^    fn execute_winapi(&self) -> std::io::Result<()> {$/;"	f
+execute_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn execute_winapi(&self) -> std::io::Result<()> {$/;"	f
+execute_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^            fn execute_winapi(&self) -> std::io::Result<()> {$/;"	f
+execute_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    fn execute_winapi(&self) -> std::io::Result<()> {$/;"	f
+execute_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^    fn execute_winapi(&self) -> io::Result<()> {$/;"	f
+exit	/home/amaury/Desktop/rust/rengine/src/main.rs	/^    fn exit(&mut self) {$/;"	f
+expecting	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^            fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+extend	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    pub fn extend(&mut self, attributes: Attributes) {$/;"	f
+eyre_frame_filters	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^fn eyre_frame_filters(frames: &mut Vec<&Frame>) {$/;"	f
+find_coordinates_on_screen_from_two_vectors	/home/amaury/Desktop/rust/rengine/src/vectors.rs	/^pub fn find_coordinates_on_screen_from_two_vectors(pov_vec: &Vector3D, point_to_project: &Vector3D, z_axis: f64) -> Vector3D {$/;"	f
+flush	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn flush(&mut self) -> io::Result<()> {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/fmt.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/handler.rs	/^    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/github.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^            fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/styled_content.rs	/^    fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/attribute.rs	/^    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> std::fmt::Result {$/;"	f
+fmt	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {$/;"	f
+fn	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub const fn new(code: KeyCode, modifiers: KeyModifiers) -> KeyEvent {$/;"	c
+fn	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub const fn new_with_kind($/;"	c
+fn	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub const fn new_with_kind_and_state($/;"	c
+fn	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    pub const fn has(self, attribute: Attribute) -> bool {$/;"	c
+fn	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    pub const fn is_empty(self) -> bool {$/;"	c
+fn	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    pub const fn none() -> Self {$/;"	c
+fn	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    pub const fn with(self, attribute: Attribute) -> Self {$/;"	c
+fn	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    pub const fn without(self, attribute: Attribute) -> Self {$/;"	c
+fn	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/attribute.rs	/^    pub const fn bytes(self) -> u32 {$/;"	c
+force_color_output	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub fn force_color_output(enabled: bool) {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    fn from(src: Theme) -> color_spantrace::Theme {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn from(val: &ClipboardType) -> Self {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn from(value: char) -> Self {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn from(handle: Handle) -> Self {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn from(code: KeyCode) -> Self {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/parse.rs	/^    fn from(state: &ControlKeyState) -> Self {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^            fn from(e: $from) -> Self {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    fn from(arr: &[Attribute]) -> Self {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    fn from(attribute: Attribute) -> Self {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^    fn from(colored: Colored) -> Self {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn from(val: (u8, u8, u8)) -> Self {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colors.rs	/^    fn from(colored: Colored) -> Colors {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^    fn from(size: Winsize) -> WindowSize {$/;"	f
+from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^    fn from(size: winsize) -> WindowSize {$/;"	f
+from_str	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn from_str(s: &str) -> Result<Self, Self::Err> {$/;"	f
+from_str	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn from_str(src: &str) -> Result<Self, Self::Err> {$/;"	f
+get_char_for_key	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/parse.rs	/^fn get_char_for_key(key_event: &KeyEventRecord) -> Option<char> {$/;"	f
+get_terminal_attr	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^fn get_terminal_attr(fd: RawFd) -> io::Result<Termios> {$/;"	f
+get_terminal_attr	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^fn get_terminal_attr(fd: impl AsFd) -> io::Result<Termios> {$/;"	f
+handle_events	/home/amaury/Desktop/rust/rengine/src/main.rs	/^    fn handle_events(&mut self) -> io::Result<()> {$/;"	f
+handle_key_event	/home/amaury/Desktop/rust/rengine/src/main.rs	/^    fn handle_key_event(&mut self, key_event: KeyEvent) {$/;"	f
+handle_surrogate	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/parse.rs	/^fn handle_surrogate(surrogate_buffer: &mut Option<u16>, new_surrogate: u16) -> Option<char> {$/;"	f
+hash	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn hash<H: Hasher>(&self, hash_state: &mut H) {$/;"	f
+header	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn header<C>(self, header: C) -> IndentedSection<C, Self>$/;"	f
+header	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^    fn header<H: ?Sized>(self, header: &H) -> HeaderWriter<'_, H, Self> {$/;"	f
+header	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^    fn header<H: ?Sized>(self, header: &H) -> HeaderWriter<'_, H, Self>;$/;"	f
+impl_display	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^macro_rules! impl_display {$/;"	d
+impl_from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^macro_rules! impl_from {$/;"	d
+impl_stylize_for_display	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^macro_rules! impl_stylize_for_display {$/;"	d
+init	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/init.rs	/^pub fn init() -> DefaultTerminal {$/;"	f
+init_original_console_mode	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows.rs	/^fn init_original_console_mode(original_mode: u32) {$/;"	f
+init_with_options	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/init.rs	/^pub fn init_with_options(options: TerminalOptions) -> DefaultTerminal {$/;"	f
+install	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn install(self) -> Result<(), crate::eyre::InstallError> {$/;"	f
+install	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn install(self) -> Result<(), crate::eyre::Report> {$/;"	f
+install	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn install(self) {$/;"	f
+install	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/lib.rs	/^pub fn install() -> Result<(), crate::eyre::Report> {$/;"	f
+into_eyre_hook	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn into_eyre_hook(self) -> HookFunc {$/;"	f
+into_hooks	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn into_hooks(self) -> (PanicHook, EyreHook) {$/;"	f
+into_panic_hook	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn into_panic_hook($/;"	f
+is_ansi_code_supported	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn is_ansi_code_supported(&self) -> bool {$/;"	f
+is_ansi_code_supported	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn is_ansi_code_supported(&self) -> bool {$/;"	f
+is_ansi_code_supported	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    fn is_ansi_code_supported(&self) -> bool {$/;"	f
+is_ansi_code_supported	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^    fn is_ansi_code_supported(&self) -> bool {$/;"	f
+is_char	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn is_char(&self, c: char) -> bool {$/;"	f
+is_dependency_code	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    fn is_dependency_code(&self) -> bool {$/;"	f
+is_function_key	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn is_function_key(&self, n: u8) -> bool {$/;"	f
+is_key_press	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn is_key_press(&self) -> bool {$/;"	f
+is_key_release	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn is_key_release(&self) -> bool {$/;"	f
+is_key_repeat	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn is_key_repeat(&self) -> bool {$/;"	f
+is_media_key	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn is_media_key(&self, media: MediaKeyCode) -> bool {$/;"	f
+is_modifier	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn is_modifier(&self, modifier: ModifierKeyCode) -> bool {$/;"	f
+is_post_panic_code	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    fn is_post_panic_code(&self) -> bool {$/;"	f
+is_press	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn is_press(&self) -> bool {$/;"	f
+is_raw_mode_enabled	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub fn is_raw_mode_enabled() -> io::Result<bool> {$/;"	f
+is_release	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn is_release(&self) -> bool {$/;"	f
+is_repeat	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    pub fn is_repeat(&self) -> bool {$/;"	f
+is_runtime_init_code	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    fn is_runtime_init_code(&self) -> bool {$/;"	f
+is_tty	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/tty.rs	/^    fn is_tty(&self) -> bool {$/;"	f
+is_tty	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/tty.rs	/^    fn is_tty(&self) -> bool;$/;"	f
+issue_filter	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn issue_filter<F>(mut self, predicate: F) -> Self$/;"	f
+issue_url	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn issue_url<S: ToString>(mut self, url: S) -> Self {$/;"	f
+iterator	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/attribute.rs	/^            pub fn iterator() -> impl Iterator<Item = Attribute> {$/;"	f
+key_modifiers_display	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn key_modifiers_display() {$/;"	f
+keycode_display	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn keycode_display() {$/;"	f
+leftover	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^    pub fn leftover(&self) -> Option<Duration> {$/;"	f
+light	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn light() -> Self {$/;"	f
+main	/home/amaury/Desktop/rust/rengine/src/main.rs	/^fn main() -> Result<()> {$/;"	f
+make_pollfd	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^        fn make_pollfd<F: AsRawFd>(fd: &F) -> pollfd {$/;"	f
+media_keycode_display	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn media_keycode_display() {$/;"	f
+modifier_and_kind_parsed	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^fn modifier_and_kind_parsed(iter: &mut dyn Iterator<Item = &str>) -> io::Result<(u8, u8)> {$/;"	f
+modifier_keycode_display	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn modifier_keycode_display() {$/;"	f
+modifier_keycode_display_macos	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn modifier_keycode_display_macos() {$/;"	f
+modifier_keycode_display_other	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn modifier_keycode_display_other() {$/;"	f
+modifier_keycode_display_windows	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn modifier_keycode_display_windows() {$/;"	f
+move_to	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn move_to(&self, x: i16, y: i16) -> std::io::Result<()> {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn new() -> Self {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/github.rs	/^    fn new() -> Self {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^        fn new(events: &[InternalEvent]) -> FakeSource {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^    pub fn new() -> io::Result<Self> {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^    fn new() -> io::Result<Self> {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^    pub fn new() -> io::Result<Self> {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/stream.rs	/^    pub fn new() -> EventStream {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^    pub fn new(timeout: Option<Duration>) -> PollTimeout {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^            fn new(stream: &'a mut WindowsEventStream, value: &'static str) -> Self {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/content_style.rs	/^    pub fn new() -> ContentStyle {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/styled_content.rs	/^    pub fn new(style: ContentStyle, content: D) -> StyledContent<D> {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colors.rs	/^    pub fn new(foreground: Color, background: Color) -> Colors {$/;"	f
+new	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/file_descriptor.rs	/^    pub fn new(fd: RawFd, close_on_drop: bool) -> FileDesc<'static> {$/;"	f
+next	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+next	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+nonblocking_unix_pair	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^fn nonblocking_unix_pair() -> io::Result<(UnixStream, UnixStream)> {$/;"	f
+normalize	/home/amaury/Desktop/rust/rengine/src/vectors.rs	/^    pub fn normalize(&self) {$/;"	f
+normalize_case	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn normalize_case(mut self) -> KeyEvent {$/;"	f
+note	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn note<D>(mut self, note: D) -> Self::Return$/;"	f
+note	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn note<D>(self, note: D) -> Self::Return$/;"	f
+note	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn note<D>(self, note: D) -> Self::Return$/;"	f
+on	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^    fn on(self, color: Color) -> Self::Styled {$/;"	f
+original_console_mode	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows.rs	/^fn original_console_mode() -> std::io::Result<u32> {$/;"	f
+osc	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^macro_rules! osc {$/;"	d
+output	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn output() -> std::io::Result<ScreenBufferCursor> {$/;"	f
+panic_message	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn panic_message<S: PanicMessage>(mut self, section: S) -> Self {$/;"	f
+panic_report	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn panic_report<'a>($/;"	f
+panic_section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn panic_section<S: Display + Send + Sync + 'static>(mut self, section: S) -> Self {$/;"	f
+parse_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    pub fn parse_ansi(ansi: &str) -> Option<Self> {$/;"	f
+parse_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    pub fn parse_ansi(ansi: &str) -> Option<Self> {$/;"	f
+parse_cb	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^fn parse_cb(cb: u8) -> io::Result<(MouseEventKind, KeyModifiers)> {$/;"	f
+parse_csi_keyboard_enhancement_flags	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^fn parse_csi_keyboard_enhancement_flags(buffer: &[u8]) -> io::Result<Option<InternalEvent>> {$/;"	f
+parse_csi_primary_device_attributes	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^fn parse_csi_primary_device_attributes(buffer: &[u8]) -> io::Result<Option<InternalEvent>> {$/;"	f
+parse_key_event_kind	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^fn parse_key_event_kind(kind: u8) -> KeyEventKind {$/;"	f
+parse_key_event_record	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/parse.rs	/^fn parse_key_event_record(key_event: &KeyEventRecord) -> Option<WindowsKeyEvent> {$/;"	f
+parse_modifiers	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^fn parse_modifiers(mask: u8) -> KeyModifiers {$/;"	f
+parse_modifiers_to_state	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^fn parse_modifiers_to_state(mask: u8) -> KeyEventState {$/;"	f
+parse_mouse_event_record	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/parse.rs	/^fn parse_mouse_event_record($/;"	f
+parse_next_u8	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^fn parse_next_u8<'a>(iter: &mut impl Iterator<Item = &'a str>) -> Option<u8> {$/;"	f
+parse_relative_y	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^pub fn parse_relative_y(y: i16) -> std::io::Result<i16> {$/;"	f
+parse_relative_y	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/parse.rs	/^pub fn parse_relative_y(y: i16) -> std::io::Result<i16> {$/;"	f
+poll	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub fn poll(timeout: Duration) -> std::io::Result<bool> {$/;"	f
+poll	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/poll.rs	/^    pub fn poll(&mut self, timeout: Option<Duration>) -> std::io::Result<Option<bool>> {$/;"	f
+poll_next	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/stream.rs	/^    fn poll_next(self: Pin<&mut Self>, cx: &mut Context<'_>) -> Poll<Option<Self::Item>> {$/;"	f
+position	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/unix.rs	/^pub fn position() -> io::Result<(u16, u16)> {$/;"	f
+position	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn position(&self) -> std::io::Result<Coord> {$/;"	f
+position	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^pub fn position() -> io::Result<(u16, u16)> {$/;"	f
+print_hidden	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^        macro_rules! print_hidden {$/;"	d
+print_panic_info	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^fn print_panic_info(report: &PanicReport<'_>, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+push_section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/github.rs	/^    fn push_section<T>(&mut self, header: &'static str, section: T) -> fmt::Result$/;"	f
+query_keyboard_enhancement_flags	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^pub fn query_keyboard_enhancement_flags() -> io::Result<Option<KeyboardEnhancementFlags>> {$/;"	f
+query_keyboard_enhancement_flags_nonraw	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^fn query_keyboard_enhancement_flags_nonraw() -> io::Result<Option<KeyboardEnhancementFlags>> {$/;"	f
+query_keyboard_enhancement_flags_raw	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^fn query_keyboard_enhancement_flags_raw() -> io::Result<Option<KeyboardEnhancementFlags>> {$/;"	f
+queue	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn queue(&mut self, command: impl Command) -> io::Result<&mut Self> {$/;"	f
+queue	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn queue(&mut self, command: impl Command) -> io::Result<&mut Self>;$/;"	f
+queue	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^macro_rules! queue {$/;"	d
+raw_fd	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/file_descriptor.rs	/^    pub fn raw_fd(&self) -> RawFd {$/;"	f
+raw_terminal_attr	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^fn raw_terminal_attr(termios: &mut Termios) {$/;"	f
+read	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^pub fn read() -> std::io::Result<Event> {$/;"	f
+read	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/file_descriptor.rs	/^    pub fn read(&self, buffer: &mut [u8]) -> io::Result<usize> {$/;"	f
+read_complete	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^fn read_complete(fd: &FileDesc, buf: &mut [u8]) -> io::Result<usize> {$/;"	f
+read_position	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/unix.rs	/^fn read_position() -> io::Result<(u16, u16)> {$/;"	f
+read_position_raw	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/unix.rs	/^fn read_position_raw() -> io::Result<(u16, u16)> {$/;"	f
+render	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^            fn render(self, area: Rect, buf: &mut Buffer, state: &mut Self::State) {$/;"	f
+render	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^        fn render(self, area: Rect, buf: &mut Buffer, state: &mut Self::State) {$/;"	f
+render	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^        fn render(self, area: Rect, buf: &mut Buffer) {$/;"	f
+render	/home/amaury/Desktop/rust/rengine/src/main.rs	/^    fn render(self, area: Rect, buf: &mut Buffer) {$/;"	f
+render_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^            fn render_ref(&self, area: Rect, buf: &mut Buffer, state: &mut Self::State) {$/;"	f
+render_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    fn render_ref(&self, area: Rect, buf: &mut Buffer, state: &mut Self::State) {$/;"	f
+render_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    fn render_ref(&self, area: Rect, buf: &mut Buffer, state: &mut Self::State);$/;"	f
+render_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    fn render_ref(mut buf: Buffer, mut state: String) {$/;"	f
+render_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref(&self, area: Rect, buf: &mut Buffer) {$/;"	f
+render_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref(&self, area: Rect, buf: &mut Buffer);$/;"	f
+render_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref(mut buf: Buffer) {$/;"	f
+render_ref_box	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref_box(mut buf: Buffer) {$/;"	f
+render_ref_box_vec	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref_box_vec(mut buf: Buffer) {$/;"	f
+render_ref_none	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref_none(mut buf: Buffer) {$/;"	f
+render_ref_option_str	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref_option_str(mut buf: Buffer) {$/;"	f
+render_ref_option_string	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref_option_string(mut buf: Buffer) {$/;"	f
+render_ref_some	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref_some(mut buf: Buffer) {$/;"	f
+render_ref_str	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref_str(mut buf: Buffer) {$/;"	f
+render_ref_string	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^    fn render_ref_string(mut buf: Buffer) {$/;"	f
+render_stateful_widget_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets.rs	/^    fn render_stateful_widget_ref<W>(&mut self, widget: W, area: Rect, state: &mut W::State)$/;"	f
+render_stateful_widget_ref_with_unsized_state	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    fn render_stateful_widget_ref_with_unsized_state(mut buf: Buffer) {$/;"	f
+render_stateful_widget_with_unsized_state	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    fn render_stateful_widget_with_unsized_state(mut buf: Buffer) {$/;"	f
+render_widget_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets.rs	/^    fn render_widget_ref<W: WidgetRef>(&mut self, widget: W, area: Rect) {$/;"	f
+render_widget_ref	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets.rs	/^    fn render_widget_ref<W: WidgetRef>(&mut self, widget: W, area: Rect);$/;"	f
+restore	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/init.rs	/^pub fn restore() {$/;"	f
+restore_position	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn restore_position(&self) -> std::io::Result<()> {$/;"	f
+rotate	/home/amaury/Desktop/rust/rengine/src/vectors.rs	/^    pub fn rotate(&self, rotation_vector: Vector3D) {$/;"	f
+run	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/init.rs	/^pub fn run<F, R>(f: F) -> R$/;"	f
+run	/home/amaury/Desktop/rust/rengine/src/main.rs	/^    pub fn run(&mut self, terminal: &mut DefaultTerminal) -> io::Result<()> {$/;"	f
+save_position	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn save_position(&self) -> std::io::Result<()> {$/;"	f
+section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn section<D>(mut self, section: D) -> Self::Return$/;"	f
+section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn section<D>(self, section: D) -> Self::Return$/;"	f
+section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn section<D>(self, section: D) -> Self::Return$/;"	f
+serde_tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^mod serde_tests {$/;"	m
+serialize	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>$/;"	f
+set	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    pub fn set(&mut self, attribute: Attribute) {$/;"	f
+set_ansi_color_disabled	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    pub fn set_ansi_color_disabled(val: bool) {$/;"	f
+set_fg_bg_add_attr	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^    fn set_fg_bg_add_attr() {$/;"	f
+set_panic_hook	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/init.rs	/^fn set_panic_hook() {$/;"	f
+set_terminal_attr	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^fn set_terminal_attr(fd: RawFd, termios: &Termios) -> io::Result<()> {$/;"	f
+set_terminal_attr	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^fn set_terminal_attr(fd: impl AsFd, termios: &Termios) -> io::Result<()> {$/;"	f
+set_visibility	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn set_visibility(&self, visible: bool) -> std::io::Result<()> {$/;"	f
+sgr	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/attribute.rs	/^    pub fn sgr(self) -> String {$/;"	f
+size	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub fn size() -> io::Result<(u16, u16)> {$/;"	f
+skip_windows_ansi_supported	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    macro_rules! skip_windows_ansi_supported {$/;"	d
+span_trace	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/handler.rs	/^    pub fn span_trace(&self) -> Option<&SpanTrace> {$/;"	f
+spantrace_capture_enabled	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    fn spantrace_capture_enabled(&self) -> bool {$/;"	f
+spiral	/home/amaury/Desktop/rust/rengine/src/curves.rs	/^pub fn spiral(t: f64, phi: f64) -> Vector3D {$/;"	f
+state	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^    fn state() -> String {$/;"	f
+style	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^pub fn style<D: Display>(val: D) -> StyledContent<D> {$/;"	f
+style	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/styled_content.rs	/^    pub fn style(&self) -> &ContentStyle {$/;"	f
+style_mut	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/styled_content.rs	/^    pub fn style_mut(&mut self) -> &mut ContentStyle {$/;"	f
+stylize	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^            fn stylize(self) -> Self::Styled {$/;"	f
+stylize	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^    fn stylize(self) -> Self::Styled {$/;"	f
+stylize	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^    fn stylize(self) -> Self::Styled;$/;"	f
+stylize_method	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^macro_rules! stylize_method {$/;"	d
+sub	/home/amaury/Desktop/rust/rengine/src/vectors.rs	/^    fn sub(self, vec: Self) -> Self {$/;"	f
+suggestion	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn suggestion<D>(mut self, suggestion: D) -> Self::Return$/;"	f
+suggestion	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn suggestion<D>(self, suggestion: D) -> Self::Return$/;"	f
+suggestion	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn suggestion<D>(self, suggestion: D) -> Self::Return$/;"	f
+supports_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/ansi_support.rs	/^pub fn supports_ansi() -> bool {$/;"	f
+supports_keyboard_enhancement	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^pub fn supports_keyboard_enhancement() -> io::Result<bool> {$/;"	f
+supports_keyboard_enhancement	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^pub fn supports_keyboard_enhancement() -> std::io::Result<bool> {$/;"	f
+suppress_backtrace	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn suppress_backtrace(mut self, suppress: bool) -> Self::Return {$/;"	f
+suppress_backtrace	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn suppress_backtrace(self, suppress: bool) -> Self::Return {$/;"	f
+suppress_backtrace	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn suppress_backtrace(self, suppress: bool) -> Self::Return;$/;"	f
+sync_update	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn sync_update<T>(&mut self, operations: impl FnOnce(&mut Self) -> T) -> io::Result<T> {$/;"	f
+sync_update	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn sync_update<T>(&mut self, operations: impl FnOnce(&mut Self) -> T) -> io::Result<T>;$/;"	f
+temp_screen_buffer	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^pub fn temp_screen_buffer() -> std::io::Result<ScreenBuffer> {$/;"	f
+term_24bits	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    fn term_24bits() {$/;"	f
+term_256color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    fn term_256color() {$/;"	f
+test	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^        fn test(s: &str) {$/;"	f
+test	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^        macro_rules! test {$/;"	d
+test_alt_ctrl	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_alt_ctrl() {$/;"	f
+test_alt_key	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_alt_key() {$/;"	f
+test_alt_shift	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_alt_shift() {$/;"	f
+test_attributes	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    fn test_attributes() {$/;"	f
+test_attributes_const	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    fn test_attributes_const() {$/;"	f
+test_clipboard_copy_string_osc52	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn test_clipboard_copy_string_osc52() {$/;"	f
+test_clipboard_copy_string_osc52_constructor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn test_clipboard_copy_string_osc52_constructor() {$/;"	f
+test_clipboard_selection_to_osc52_pc	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn test_clipboard_selection_to_osc52_pc() {$/;"	f
+test_clipboard_string_to_selection	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn test_clipboard_string_to_selection() {$/;"	f
+test_colors_then	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colors.rs	/^    fn test_colors_then() {$/;"	f
+test_cursor_position_filter_filters_cursor_position	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/filter.rs	/^    fn test_cursor_position_filter_filters_cursor_position() {$/;"	f
+test_deserial_ansi_value	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_deserial_ansi_value() {$/;"	f
+test_deserial_known_color_conversion	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_deserial_known_color_conversion() {$/;"	f
+test_deserial_rgb	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_deserial_rgb() {$/;"	f
+test_deserial_rgb_hex	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_deserial_rgb_hex() {$/;"	f
+test_deserial_unknown_color_conversion	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_deserial_unknown_color_conversion() {$/;"	f
+test_deserial_unvalid_ansi_value	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_deserial_unvalid_ansi_value() {$/;"	f
+test_deserial_unvalid_rgb	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_deserial_unvalid_rgb() {$/;"	f
+test_deserial_unvalid_rgb_hex	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_deserial_unvalid_rgb_hex() {$/;"	f
+test_elapsed_timeout_has_zero_leftover	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^    pub fn test_elapsed_timeout_has_zero_leftover() {$/;"	f
+test_equality	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn test_equality() {$/;"	f
+test_esc_key	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_esc_key() {$/;"	f
+test_event_filter_filters_events	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/filter.rs	/^    fn test_event_filter_filters_events() {$/;"	f
+test_event_filter_filters_internal_events	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/filter.rs	/^    fn test_event_filter_filters_internal_events() {$/;"	f
+test_execute_many	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn test_execute_many() {$/;"	f
+test_execute_one	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn test_execute_one() {$/;"	f
+test_execute_trailing_comma	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn test_execute_trailing_comma() {$/;"	f
+test_format_bg_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_format_bg_color() {$/;"	f
+test_format_fg_ansi_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_format_fg_ansi_color() {$/;"	f
+test_format_fg_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_format_fg_color() {$/;"	f
+test_format_fg_rgb_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_format_fg_rgb_color() {$/;"	f
+test_format_reset_bg_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_format_reset_bg_color() {$/;"	f
+test_format_reset_fg_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_format_reset_fg_color() {$/;"	f
+test_harness	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn test_harness($/;"	f
+test_hash	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn test_hash() {$/;"	f
+test_keyboard_enhancement_status_filter_filters_keyboard_enhancement_status	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/filter.rs	/^    fn test_keyboard_enhancement_status_filter_filters_keyboard_enhancement_status() {$/;"	f
+test_know_rgb_color_conversion	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_know_rgb_color_conversion() {$/;"	f
+test_known_color_conversion	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_known_color_conversion() {$/;"	f
+test_many_queues	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn test_many_queues() {$/;"	f
+test_move_down	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^    fn test_move_down() {$/;"	f
+test_move_down_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn test_move_down_winapi() {$/;"	f
+test_move_left	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^    fn test_move_left() {$/;"	f
+test_move_left_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn test_move_left_winapi() {$/;"	f
+test_move_right	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^    fn test_move_right() {$/;"	f
+test_move_right_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn test_move_right_winapi() {$/;"	f
+test_move_to	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^    fn test_move_to() {$/;"	f
+test_move_to_column_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn test_move_to_column_winapi() {$/;"	f
+test_move_to_next_line_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn test_move_to_next_line_winapi() {$/;"	f
+test_move_to_previous_line_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn test_move_to_previous_line_winapi() {$/;"	f
+test_move_to_row_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn test_move_to_row_winapi() {$/;"	f
+test_move_to_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn test_move_to_winapi() {$/;"	f
+test_move_up	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^    fn test_move_up() {$/;"	f
+test_move_up_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn test_move_up_winapi() {$/;"	f
+test_no_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_no_color() {$/;"	f
+test_not_elapsed_timeout_has_positive_leftover	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^    pub fn test_not_elapsed_timeout_has_positive_leftover() {$/;"	f
+test_original_console_color_is_set	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^    fn test_original_console_color_is_set() {$/;"	f
+test_parse_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_parse_ansi(bg_or_fg: impl Fn(Color) -> Colored) {$/;"	f
+test_parse_ansi_bg	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_parse_ansi_bg() {$/;"	f
+test_parse_ansi_fg	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_parse_ansi_fg() {$/;"	f
+test_parse_basic_csi_u_encoded_key_code	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_basic_csi_u_encoded_key_code() {$/;"	f
+test_parse_basic_csi_u_encoded_key_code_special_keys	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_basic_csi_u_encoded_key_code_special_keys() {$/;"	f
+test_parse_bg_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^    fn test_parse_bg_color() {$/;"	f
+test_parse_char_event_lowercase	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_char_event_lowercase() {$/;"	f
+test_parse_char_event_uppercase	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_char_event_uppercase() {$/;"	f
+test_parse_csi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi() {$/;"	f
+test_parse_csi_bracketed_paste	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_bracketed_paste() {$/;"	f
+test_parse_csi_cursor_position	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_cursor_position() {$/;"	f
+test_parse_csi_focus	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_focus() {$/;"	f
+test_parse_csi_modifier_key_code	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_modifier_key_code() {$/;"	f
+test_parse_csi_normal_mouse	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_normal_mouse() {$/;"	f
+test_parse_csi_numbered_escape_code_with_types	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_numbered_escape_code_with_types() {$/;"	f
+test_parse_csi_rxvt_mouse	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_rxvt_mouse() {$/;"	f
+test_parse_csi_sgr_mouse	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_sgr_mouse() {$/;"	f
+test_parse_csi_special_key_code	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_special_key_code() {$/;"	f
+test_parse_csi_special_key_code_multiple_values_not_supported	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_special_key_code_multiple_values_not_supported() {$/;"	f
+test_parse_csi_special_key_code_with_types	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_special_key_code_with_types() {$/;"	f
+test_parse_csi_u_encoded_key_code_has_modifier_on_modifier_press	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_u_encoded_key_code_has_modifier_on_modifier_press() {$/;"	f
+test_parse_csi_u_encoded_key_code_with_extra_modifiers	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_u_encoded_key_code_with_extra_modifiers() {$/;"	f
+test_parse_csi_u_encoded_key_code_with_extra_state	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_u_encoded_key_code_with_extra_state() {$/;"	f
+test_parse_csi_u_encoded_key_code_with_types	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_u_encoded_key_code_with_types() {$/;"	f
+test_parse_csi_u_encoded_keypad_code	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_u_encoded_keypad_code() {$/;"	f
+test_parse_csi_u_with_shifted_keycode	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_csi_u_with_shifted_keycode() {$/;"	f
+test_parse_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_event() {$/;"	f
+test_parse_event_subsequent_calls	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_parse_event_subsequent_calls() {$/;"	f
+test_parse_fg_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^    fn test_parse_fg_color() {$/;"	f
+test_parse_invalid_ansi_color	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^    fn test_parse_invalid_ansi_color() {$/;"	f
+test_poll_continues_after_error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_poll_continues_after_error() {$/;"	f
+test_poll_fails_without_event_source	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_poll_fails_without_event_source() {$/;"	f
+test_poll_propagates_error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_poll_propagates_error() {$/;"	f
+test_poll_returns_false_after_all_source_events_are_consumed	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_poll_returns_false_after_all_source_events_are_consumed() {$/;"	f
+test_poll_returns_true_for_matching_event_in_queue_at_back	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_poll_returns_true_for_matching_event_in_queue_at_back() {$/;"	f
+test_poll_returns_true_for_matching_event_in_queue_at_front	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_poll_returns_true_for_matching_event_in_queue_at_front() {$/;"	f
+test_poll_returns_true_if_source_has_at_least_one_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_poll_returns_true_if_source_has_at_least_one_event() {$/;"	f
+test_poll_timeouts_if_source_has_no_events	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_poll_timeouts_if_source_has_no_events() {$/;"	f
+test_possible_esc_sequence	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_possible_esc_sequence() {$/;"	f
+test_primary_device_attributes_filter_filters_primary_device_attributes	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/filter.rs	/^    fn test_primary_device_attributes_filter_filters_primary_device_attributes() {$/;"	f
+test_queue_many	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn test_queue_many() {$/;"	f
+test_queue_one	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn test_queue_one() {$/;"	f
+test_queue_some	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn test_queue_some() {$/;"	f
+test_queue_trailing_comma	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn test_queue_trailing_comma() {$/;"	f
+test_raw_mode	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^    fn test_raw_mode() {$/;"	f
+test_read_continues_after_error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_read_continues_after_error() {$/;"	f
+test_read_does_not_consume_skipped_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_read_does_not_consume_skipped_event() {$/;"	f
+test_read_propagates_error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_read_propagates_error() {$/;"	f
+test_read_returns_events_if_source_has_events	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_read_returns_events_if_source_has_events() {$/;"	f
+test_read_returns_matching_event_in_queue_at_back	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_read_returns_matching_event_in_queue_at_back() {$/;"	f
+test_read_returns_matching_event_in_queue_at_front	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_read_returns_matching_event_in_queue_at_front() {$/;"	f
+test_reads_returns_event_if_source_has_at_least_one_event	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^    fn test_reads_returns_event_if_source_has_at_least_one_event() {$/;"	f
+test_resize_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^    fn test_resize_ansi() {$/;"	f
+test_resize_winapi_20_21	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^    fn test_resize_winapi_20_21() {$/;"	f
+test_resize_winapi_30_31	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^    fn test_resize_winapi_30_31() {$/;"	f
+test_save_restore_position	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^    fn test_save_restore_position() {$/;"	f
+test_save_restore_position_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^    fn test_save_restore_position_winapi() {$/;"	f
+test_scroll_down_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^    fn test_scroll_down_winapi() {$/;"	f
+test_scroll_up_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^    fn test_scroll_up_winapi() {$/;"	f
+test_set_title_winapi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^    fn test_set_title_winapi() {$/;"	f
+test_timeout_elapses	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^    pub fn test_timeout_elapses() {$/;"	f
+test_timeout_without_duration_does_not_have_leftover	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^    pub fn test_timeout_without_duration_does_not_have_leftover() {$/;"	f
+test_timeout_without_duration_never_elapses	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^    pub fn test_timeout_without_duration_never_elapses() {$/;"	f
+test_unknown_color_conversion_yields_white	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn test_unknown_color_conversion_yields_white() {$/;"	f
+test_utf8	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^    fn test_utf8() {$/;"	f
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor/sys/windows.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/filter.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/timeout.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/sys/windows.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colored.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colors.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/stateful_widget_ref.rs	/^mod tests {$/;"	m
+tests	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/widgets/widget_ref.rs	/^mod tests {$/;"	m
+theme	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn theme(mut self, theme: Theme) -> Self {$/;"	f
+theme_setters	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^macro_rules! theme_setters {$/;"	d
+then	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/colors.rs	/^    pub fn then(&self, other: &Colors) -> Colors {$/;"	f
+to_clipboard_from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    pub fn to_clipboard_from(content: T) -> CopyToClipboard<T> {$/;"	f
+to_osc52_pc	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn to_osc52_pc(&self) -> String {$/;"	f
+to_primary_from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    pub fn to_primary_from(content: T) -> CopyToClipboard<T> {$/;"	f
+to_string	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/github.rs	/^    fn to_string(self) -> String {$/;"	f
+toggle	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    pub fn toggle(&mut self, attribute: Attribute) {$/;"	f
+tput_size	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^fn tput_size() -> Option<(u16, u16)> {$/;"	f
+tput_value	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^fn tput_value(arg: &str) -> Option<u16> {$/;"	f
+track_caller	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/handler.rs	/^    fn track_caller(&mut self, location: &'static std::panic::Location<'static>) {$/;"	f
+translate_functional_key_code	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/unix/parse.rs	/^fn translate_functional_key_code(codepoint: u32) -> Option<(KeyCode, KeyEventState)> {$/;"	f
+try_ensure_char_case	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/parse.rs	/^fn try_ensure_char_case(ch: char, desired_case: CharCase) -> char {$/;"	f
+try_from	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^    fn try_from(src: &str) -> Result<Self, Self::Error> {$/;"	f
+try_init	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/init.rs	/^pub fn try_init() -> io::Result<DefaultTerminal> {$/;"	f
+try_init_with_options	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/init.rs	/^pub fn try_init_with_options(options: TerminalOptions) -> io::Result<DefaultTerminal> {$/;"	f
+try_into_hooks	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/config.rs	/^    pub fn try_into_hooks(self) -> Result<(PanicHook, EyreHook), crate::eyre::Report> {$/;"	f
+try_lock_internal_event_reader_for	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^fn try_lock_internal_event_reader_for($/;"	f
+try_read	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^        fn try_read(&mut self, _timeout: Option<Duration>) -> io::Result<Option<InternalEvent>> {$/;"	f
+try_read	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source.rs	/^    fn try_read(&mut self, timeout: Option<Duration>) -> io::Result<Option<InternalEvent>>;$/;"	f
+try_read	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^    fn try_read(&mut self, timeout: Option<Duration>) -> io::Result<Option<InternalEvent>> {$/;"	f
+try_read	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^    fn try_read(&mut self, timeout: Option<Duration>) -> io::Result<Option<InternalEvent>> {$/;"	f
+try_read	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/windows.rs	/^    fn try_read(&mut self, timeout: Option<Duration>) -> std::io::Result<Option<InternalEvent>> {$/;"	f
+try_restore	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ratatui-0.30.2/src/init.rs	/^pub fn try_restore() -> io::Result<()> {$/;"	f
+tty_fd	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/file_descriptor.rs	/^pub fn tty_fd() -> io::Result<FileDesc<'static>> {$/;"	f
+underline	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^    fn underline(self, color: Color) -> Self::Styled {$/;"	f
+unix	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^    mod unix {$/;"	m
+unset	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/attributes.rs	/^    pub fn unset(&mut self, attribute: Attribute) {$/;"	f
+unsupported_term_colorterm_values	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    fn unsupported_term_colorterm_values() {$/;"	f
+vectors	/home/amaury/Desktop/rust/rengine/src/vectors.rs	/^pub mod vectors {$/;"	m
+visit_str	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/types/color.rs	/^            fn visit_str<E>(self, value: &str) -> Result<Color, E>$/;"	f
+waker	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^        fn waker(&self) -> super::super::sys::Waker {$/;"	f
+waker	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source.rs	/^    fn waker(&self) -> Waker;$/;"	f
+waker	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/mio.rs	/^    fn waker(&self) -> Waker {$/;"	f
+waker	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/unix/tty.rs	/^    fn waker(&self) -> Waker {$/;"	f
+waker	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/source/windows.rs	/^    fn waker(&self) -> Waker {$/;"	f
+waker	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/sys/windows/poll.rs	/^    pub fn waker(&self) -> Waker {$/;"	f
+warning	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn warning<D>(mut self, warning: D) -> Self::Return$/;"	f
+warning	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn warning<D>(self, warning: D) -> Self::Return$/;"	f
+warning	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn warning<D>(self, warning: D) -> Self::Return$/;"	f
+window_size	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^pub fn window_size() -> io::Result<WindowSize> {$/;"	f
+windows	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^    mod windows {$/;"	m
+windows_always_truecolor	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    fn windows_always_truecolor() {$/;"	f
+with	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style/stylize.rs	/^    fn with(self, color: Color) -> Self::Styled {$/;"	f
+with_error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn with_error<E2, F>(mut self, error: F) -> Self::Return$/;"	f
+with_error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn with_error<E2, F>(self, error: F) -> Self::Return$/;"	f
+with_error	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn with_error<E, F>(self, error: F) -> Self::Return$/;"	f
+with_events	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event/read.rs	/^        fn with_events(events: &[InternalEvent]) -> FakeSource {$/;"	f
+with_footer	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^    fn with_footer<F: Display>(self, footer: F) -> Footer<Self, F> {$/;"	f
+with_footer	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^    fn with_footer<F: Display>(self, footer: F) -> Footer<Self, F>;$/;"	f
+with_header	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^    fn with_header<H: Display>(self, header: H) -> Header<Self, H> {$/;"	f
+with_header	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^    fn with_header<H: Display>(self, header: H) -> Header<Self, H>;$/;"	f
+with_note	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn with_note<D, F>(mut self, note: F) -> Self::Return$/;"	f
+with_note	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn with_note<D, F>(self, note: F) -> Self::Return$/;"	f
+with_note	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn with_note<D, F>(self, f: F) -> Self::Return$/;"	f
+with_section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn with_section<D, F>(mut self, section: F) -> Self::Return$/;"	f
+with_section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn with_section<D, F>(self, section: F) -> Self::Return$/;"	f
+with_section	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn with_section<D, F>(self, section: F) -> Self::Return$/;"	f
+with_suggestion	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn with_suggestion<D, F>(mut self, suggestion: F) -> Self::Return$/;"	f
+with_suggestion	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn with_suggestion<D, F>(self, suggestion: F) -> Self::Return$/;"	f
+with_suggestion	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn with_suggestion<D, F>(self, f: F) -> Self::Return$/;"	f
+with_warning	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn with_warning<D, F>(mut self, warning: F) -> Self::Return$/;"	f
+with_warning	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/help.rs	/^    fn with_warning<D, F>(self, warning: F) -> Self::Return$/;"	f
+with_warning	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/section/mod.rs	/^    fn with_warning<D, F>(self, f: F) -> Self::Return$/;"	f
+wrap_with_result	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/unix.rs	/^fn wrap_with_result(result: i32) -> io::Result<()> {$/;"	f
+write	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^        fn write(&mut self, content: &[u8]) -> io::Result<usize> {$/;"	f
+write_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/clipboard.rs	/^    fn write_ansi(&self, f: &mut impl fmt::Write) -> fmt::Result {$/;"	f
+write_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn write_ansi(&self, f: &mut impl fmt::Write) -> fmt::Result {$/;"	f
+write_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^    fn write_ansi(&self, f: &mut impl fmt::Write) -> fmt::Result;$/;"	f
+write_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/cursor.rs	/^    fn write_ansi(&self, f: &mut impl fmt::Write) -> fmt::Result {$/;"	f
+write_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/event.rs	/^    fn write_ansi(&self, f: &mut impl fmt::Write) -> fmt::Result {$/;"	f
+write_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/macros.rs	/^            fn write_ansi(&self, f: &mut impl fmt::Write) -> fmt::Result {$/;"	f
+write_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/style.rs	/^    fn write_ansi(&self, f: &mut impl fmt::Write) -> fmt::Result {$/;"	f
+write_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal.rs	/^    fn write_ansi(&self, f: &mut impl fmt::Write) -> fmt::Result {$/;"	f
+write_command_ansi	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^fn write_command_ansi<C: Command>($/;"	f
+write_str	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/writers.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
+write_str	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/command.rs	/^        fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
+write_str	/home/amaury/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/terminal/sys/windows.rs	/^        fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
